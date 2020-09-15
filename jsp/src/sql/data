@@ -1,0 +1,9 @@
+create table board (
+seq int ,
+name varchar(20)
+
+);
+select * from BOARD;
+
+insert into board(seq,name) values(1,'홍길동');
+insert into board(seq,name) values(2,'일지메');
